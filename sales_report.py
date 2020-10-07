@@ -22,8 +22,8 @@ for line in f:
     # index of that salesperson and add to the number of melons sold
     if salesperson in salespeople:
         position = salespeople.index(salesperson)
-
         melons_sold[position] += melons
+        
     # otherwise add the salesperson's name to the salespeople list 
     # and melons sold to the melons_sold list
     else:
